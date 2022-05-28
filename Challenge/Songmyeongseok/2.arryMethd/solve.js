@@ -10,4 +10,5 @@ console.log(arr);
 출력
 [200, 100, 10000, 300]
 
-arr.splice(2, 0, 10000);
+//답
+//arr.splice(2,0,1000)

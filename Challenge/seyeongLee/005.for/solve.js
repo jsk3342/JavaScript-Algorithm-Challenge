@@ -3,18 +3,17 @@
 
 // 다음 코드의 출력 값으로 알맞은 것은?
 
-jsx
 var a = 10;
 var b = 2;
 
-for(var i=1; i<5; i+=2){
-    a += i;
+for (var i = 1; i < 5; i += 2) {
+  a += i;
 }
 
-console.log(a+b);
+console.log(a + b); // result : 16
 
 
 // 1)  10
 // 2)  12
 // 3)  14
-// 4)  16
+// 4)  16 -----> 정답!! why? 10 + 1 + 3 + 2 = 16

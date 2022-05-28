@@ -5,9 +5,9 @@
 데이터
 var arr = [200, 100, 300];
 //pass
+arr.splice(2,0,10000);
+//arr.splice(index, 지정한 index 뒤로 제거할 개수, 넣을 값1, 넣을 값2...)
 console.log(arr);
 
 출력
 [200, 100, 10000, 300]
-
-arr.splice(2, 0, 10000);
