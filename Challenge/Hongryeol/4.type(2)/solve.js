@@ -6,3 +6,6 @@
 // 2)  입력 : a = 2.22,   출력 : boolean
 // 3)  입력 : a = 'p',   출력 : string
 // 4)  입력 : a = [1, 2, 3],   출력 : object
+
+// 정답
+// 2) boolean => number
