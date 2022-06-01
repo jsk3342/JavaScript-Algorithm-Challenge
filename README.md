@@ -1,5 +1,7 @@
 # JavaScript-Algorithm-Challenge
 
+![알고리즘 첼린지 포스터](https://user-images.githubusercontent.com/85912592/171470808-dffbf327-ebbe-48a4-bc8c-2bce999cfd95.png)
+
 ## 자바스크립트 알고리즘 첼린지!
 
 ### 문제 풀기
