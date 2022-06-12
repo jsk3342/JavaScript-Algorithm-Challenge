@@ -18,7 +18,7 @@
 
 let input = prompt("숫자를 입력하세요.");
 
-if (input % 3 == 0) {
+if (input % 3 == 0 && input !== '0') {
   document.write("출력 : 짝");
 } else {
   document.write(`출력 : ${input}`);
