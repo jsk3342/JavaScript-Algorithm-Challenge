@@ -13,9 +13,3 @@
 // **출력**
 // 4
 // ```
-
-const firstStr = prompt("문자를 입력해 주세요")
-
-const secondStr = prompt("입력하신 단어에서 찾을 문자를 입력해 주세요")
-
-console.log("찾는 단어의 인덱스 위치 : " + firstStr.indexOf(secondStr))
