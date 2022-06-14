@@ -16,3 +16,11 @@ const left = parseInt(n[0], 10) % parseInt(n[1], 10);
 
 console.log(result, left);
 */
+
+function divide() {
+    const numbers = prompt('공백으로 구분하여 두 숫자를 입력하세요.').split(' ');
+    const 몫 = parseInt(numbers[0] / numbers[1]);
+    const 나머지 = numbers[0] % numbers[1];
+
+    return console.log(`몫: ${몫}, 나머지: ${나머지}`);
+};
