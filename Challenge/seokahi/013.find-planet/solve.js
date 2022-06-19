@@ -13,3 +13,7 @@
 입력 : 1
 출력 : 수성
 */
+
+const planet = ["수성", "금성", "지구", "화성", "목성", "토성", "천왕성", "해왕성"];
+let input_value = prompt("입력해주세요");
+console.log(planet[input_value-1]);
