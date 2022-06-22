@@ -1,44 +1,20 @@
 /*
-# 문제 40 : 놀이동산에 가자
+# 문제 41 : 소수판별
 
-테마파크에 온 원범이와 친구들은 놀이기구를 타려고 합니다. 모든 놀이기구는 한 번에 타는 인원수에는 제한이 없지만 제한 무게를 넘으면 무조건 다음 기구를 타야 합니다.
-
-**원범이와 친구들이 총 몇 명 탈 수 있는지 알 수 있는 프로그램을 작성해 주세요.**
-
-첫번째 입력으로 제한 무게가 주어지고 두번째 입력으로는 함께한 친구들의 수 n이 주어집니다. 그 다음 차례대로 탑승할 친구들의 몸무게가 주어집니다. 몸무게는 무작위로 주어집니다.
-
-입력:   50
-        5
-        20
-        20
-        20
-        20
-        20
-출력 :  2
+숫자가 주어지면 **소수인지 아닌지 판별하는 프로그램**을 작성해주세요.
+소수이면 YES로, 소수가 아니면 NO로 출력해주세요.
+(소수 : 1과 자기 자신만으로 나누어 떨어지는 1보다 큰 양의 정수)
 */
 
-function countPeople(){
-    let limit = prompt('제한 무게를 입력하세요');
-    let number = prompt('친구들이 몇 명인지 입력하세요');
-    let weight = [];
-    for(let i =0; i<number; i++){
-        weight.push(prompt('몸무게를 입력하세요'));
-    }
-    weight.sort();
-    let sum = 0;
-    let result = 0;
-    for(let i=0; i<number; i++){
-        sum += parseInt(weight[i])
-        if(sum > limit){
-            result = i;
-            break;
+function primeNumber(){
+    let number = prompt('숫자를 입력하세요');
+    let result = 'YES';
+    for(let i =2; i<number/2; i++){
+        if(number%i === 0){
+            result = 'NO'
         }
     }
-    if(result === 0){
-        return number;
-    } else{
-        return result;
-    }
+    return result
 }
 
-countPeople()
+primeNumber()
