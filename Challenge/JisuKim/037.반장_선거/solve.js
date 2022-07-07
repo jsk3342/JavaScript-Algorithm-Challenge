@@ -27,3 +27,65 @@ arr.forEach((e,i) => {
 
 })
 
+// function Cat(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+
+// const tabby1 = Cat('nana', 5)
+// console.log(tabby1.name)
+
+// (function(name){
+//   console.log(`hello ${name}`)
+// })('roto')
+
+// var idiots = {
+//   name: 'idiots',
+//   genre: 'punk rock',
+//   members: {
+//     roto: {
+//       memberName: 'roto',
+//       play: function() {
+//         console.log(`band ${this.name} ${this.memberName} play start.`)
+//       }
+//     }
+//   }
+// }
+
+// idiots.members.roto.play()
+
+// // 4번 경우에수가 많음 이따 풀기 
+
+// function RockBand(members) {
+//   this.members = members;
+//   this.perform = function() {
+//     setTimeout(function() {
+//       this.members.forEach(function(member) {
+//         member.perform()
+//       }, 1000)
+//     })
+//   }
+// }
+
+// var theOralCigarettes = new RockBand([
+//   {
+//     name: 'takuya',
+//     perform: function() {
+//       console.log('a e u i a e u i')
+//     }
+//   }
+// ])
+
+// // 5번
+// const numbers = [1, 2, 3, 4, 5]
+// for(var i = 0; i < numbers.length; i++) {
+//   setTimeout(function() {
+//     console.log(`number index ${i}`)
+//   }, 3000)
+// }
+
+// for(var i = 0; i < 5; i++) {
+//   setTimeout(function() {
+//     console.log(`number index ${i}`)
+//   }, 0)
+// }
