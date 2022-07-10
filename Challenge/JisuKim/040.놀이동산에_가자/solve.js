@@ -23,7 +23,6 @@
 ```
 */
 
-
 const weightLimit = '100'
 const memberCount = '5'
 let count = 0;

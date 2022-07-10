@@ -24,7 +24,6 @@ arr.forEach((e,i) => {
     count++;
     answer.push([e + count])
   }
-
 })
 
 // function Cat(name, age) {
