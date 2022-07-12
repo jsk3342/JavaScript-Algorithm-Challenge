@@ -9,8 +9,9 @@
 const num = 18;
 
 function solution(num) {
-    const newNum = parseInt(num, 2);
-    console.log(parseInt(num, 2));
+    const newNum = num.toString(2);
+    console.log(newNum)
+    
 }
 
 solution(num)
