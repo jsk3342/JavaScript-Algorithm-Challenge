@@ -28,9 +28,9 @@ const person = 5;
 let count = 0;
 let totalWeight = 0;
 
-for (let i = 0; i <= person; i++) {
+for (let i = 0; i < person; i++) {
   totalWeight = totalWeight + Number(prompt("몸무게를 입력해주세요."));
-  if (totalWeight < limitWeight) {
+  if (totalWeight <= limitWeight) {
     count++;
   }
 }
