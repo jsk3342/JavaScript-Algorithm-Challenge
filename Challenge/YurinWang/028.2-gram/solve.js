@@ -19,12 +19,20 @@
 // p t
 
 // 입력으로 문자열이 주어지면 **2-gram**으로 출력하는 프로그램을 작성해 주세요.
+// let str = "";
+// const arr = prompt("문자를 입력해주세요.").split("");
+// for (let i = 0; i < arr.length - 1; i++) {
+//   for (j = i; j < i + 1; j++) {
+//     str += `${arr[i]} ${arr[i + 1]}`;
+//   }
+//   str += "\n";
+// }
+// console.log(str);
+
 let str = "";
 const arr = prompt("문자를 입력해주세요.").split("");
 for (let i = 0; i < arr.length - 1; i++) {
-  for (j = i; j < i + 1; j++) {
-    str += `${arr[i]} ${arr[i + 1]}`;
-  }
+  str += `${arr[i]} ${arr[i + 1]}`;
   str += "\n";
 }
 console.log(str);
